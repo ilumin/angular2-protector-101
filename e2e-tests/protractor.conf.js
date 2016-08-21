@@ -9,6 +9,8 @@ exports.config = {
     '../e2e-tests/tests/**/*.spec.js'
   ],
 
+  useAllAngular2AppRoots: true,
+
   // allow for testing of non-Angular sites
   // From http://ng-learn.org/2014/02/Protractor_Testing_With_Angular_And_Non_Angular_Sites/
   onPrepare: function(){
