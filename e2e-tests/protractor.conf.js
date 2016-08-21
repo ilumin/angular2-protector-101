@@ -1,6 +1,8 @@
 exports.config = {
   framework: 'jasmine2',
-  seleniumServerJar: '../node_modules/protractor/selenium/selenium-server-standalone-2.47.1.jar',
+  // seleniumServerJar: '../node_modules/protractor/selenium/selenium-server-standalone-2.53.1.jar',
+  // get selenium path and version from `node_modules/protractor/bin/webdriver-manager update`
+  seleniumServerJar: '../node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-2.53.1.jar',
 
   // location of E2E test specs
   specs: [
